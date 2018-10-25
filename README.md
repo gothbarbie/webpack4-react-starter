@@ -5,6 +5,7 @@ This is a starter app configured with the following:
 - Webpack 4
 - Babel 7
 - React (16.8)
+  - React-loadable
 - Styleguidist
 - ESlint
 - Jest (enzyme)
@@ -24,6 +25,10 @@ And plugins: `["babel-plugin-styled-components", { "fileName": false }], ["react
 ## React
 
 Current version 16.8. Includes Redux (with thunk) and React Router.
+
+### React-loadable
+
+https://github.com/jamiebuilds/react-loadable
 
 ## Styleguidist
 
