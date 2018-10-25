@@ -4,11 +4,11 @@ import { hot } from 'react-hot-loader'
 
 import Root from './Root'
 import ScrollToTop from './hoc/ScrollToTop'
-import { Button } from './atoms/Button/Button'
+import Loading from './atoms/Loading/Loading'
 
 const Home = () => <div>Home</div>
 
-const ShowButton = () => <Button>Button</Button>
+const ShowButton = () => <Loading />
 
 const App = () => (
   <Root>
@@ -21,12 +21,12 @@ const App = () => (
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/button">Button</Link>
+                <Link to="/loading">Loading</Link>
               </li>
             </ul>
           </nav>
           <Route exact path="/" component={Home} />
-          <Route exact path="/button" component={ShowButton} />
+          <Route exact path="/loading" component={ShowButton} />
         </div>
       </ScrollToTop>
     </Router>
