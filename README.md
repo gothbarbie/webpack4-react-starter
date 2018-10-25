@@ -6,6 +6,7 @@ This is a starter app configured with the following:
 - Babel 7
 - React (16.8)
   - React-loadable
+- Styled Components
 - Styleguidist
 - ESlint
 - Jest (enzyme)
@@ -29,6 +30,12 @@ Current version 16.8. Includes Redux (with thunk) and React Router.
 ### React-loadable
 
 https://github.com/jamiebuilds/react-loadable
+
+## Styled Components
+
+https://www.styled-components.com/
+
+Configured with a default theme.
 
 ## Styleguidist
 
