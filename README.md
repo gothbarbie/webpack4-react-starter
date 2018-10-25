@@ -23,7 +23,7 @@ And plugins: `["babel-plugin-styled-components", { "fileName": false }], ["react
 
 ## React
 
-Current version 16.8. Routing, Redux and similar are not implemented, so you can pick your own favorites.
+Current version 16.8. Includes Redux (with thunk) and React Router.
 
 ## Styleguidist
 
