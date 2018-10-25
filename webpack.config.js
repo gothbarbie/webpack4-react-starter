@@ -18,6 +18,15 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.svg$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          mimetype: 'image/svg+xml',
+          name: 'static/media/[name].[hash:8].[ext]',
+        },
+      },
     ],
   },
   plugins: [
